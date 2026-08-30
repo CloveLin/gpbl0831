@@ -1,1 +1,300 @@
-:root{--深:#183945;--橘:#ed765a;--粉:#fff4ee;--米:#f9f6f0;--字:#25404a}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--字);font-family:"Noto Sans TC",sans-serif;background:var(--米)}button,a{font:inherit}button{cursor:pointer;border:0}.導覽列{height:82px;display:flex;align-items:center;justify-content:space-between;padding:0 6.5%;background:#fff;position:relative;z-index:2}.品牌{color:var(--深);font-weight:800;font-size:24px;letter-spacing:4px;text-decoration:none}.品牌 span{color:var(--橘);font-family:"Playfair Display";font-size:34px;margin-right:-4px}.導覽列 nav{display:flex;gap:35px}.導覽列 nav a,.文字按鈕{color:#6c7e83;text-decoration:none;background:none;padding:8px 0;font-size:14px}.導覽列 nav .目前頁面{color:var(--深);font-weight:700;border-bottom:2px solid var(--橘)}.導覽操作{display:flex;align-items:center;gap:20px}.小按鈕,.主要按鈕{background:var(--橘);color:#fff;border-radius:99px;padding:12px 21px;font-weight:700;font-size:14px;box-shadow:0 8px 20px #ed765a36}.首頁橫幅{height:610px;position:relative;background:linear-gradient(90deg,#fff5ed 0%,#fff1e9dc 38%,#ffffff10 65%),url("hero-gathering.png") center/cover;display:flex;align-items:center;padding:0 12.5%;overflow:hidden}.橫幅文字{max-width:650px}.眉標{font-size:13px;letter-spacing:2px;color:var(--橘);font-weight:800;margin:0 0 15px}.首頁橫幅 h1,.探索區塊 h2,.安心區塊 h2,dialog h2{font-family:"Playfair Display","Noto Sans TC",serif;color:var(--深);font-size:48px;line-height:1.27;margin:0;letter-spacing:-1px}.首頁橫幅 h1 span{color:var(--橘);font-style:italic}.介紹{line-height:1.9;color:#64777d;margin:23px 0 30px;font-size:15px}.橫幅按鈕{display:flex;gap:24px;align-items:center}.主要按鈕{padding:15px 25px}.主要按鈕 b,.文字連結 b{font-size:20px;margin-left:12px}.播放按鈕{color:var(--深);font-size:14px;text-decoration:none;font-weight:700}.播放按鈕 i{display:inline-grid;place-items:center;width:31px;height:31px;border-radius:50%;border:1px solid #b8c4c3;font-style:normal;font-size:9px;margin-right:8px}.信任卡片{position:absolute;right:8%;bottom:76px;background:#fffbf8ed;border:1px solid #fff;border-radius:14px;padding:15px 18px;display:flex;gap:12px;align-items:center;box-shadow:0 10px 35px #35302d20}.頭像群{display:flex}.頭像群 span{width:31px;height:31px;border:2px solid white;border-radius:50%;margin-right:-9px;display:grid;place-items:center;background:#f0b077;color:white;font-size:10px;font-weight:bold}.頭像群 span:nth-child(2){background:#7995a0}.頭像群 span:nth-child(3){background:#b67a7a}.頭像群 span:last-child{background:var(--深)}.信任卡片 p{font-size:11px;line-height:1.5;margin:0;color:#607278}.信任卡片 b{color:var(--橘)}.捲動提示{position:absolute;bottom:24px;left:50%;font-size:11px;color:#718086;letter-spacing:1px;display:flex;gap:8px;align-items:center}.捲動提示 span{display:block;border-left:1px solid #86979b;height:24px}.探索區塊{padding:85px 10%}.區塊標題{display:flex;justify-content:space-between;align-items:end;margin-bottom:35px}.探索區塊 h2,.安心區塊 h2{font-size:31px}.文字連結{background:none;color:var(--深);font-weight:700;font-size:14px}.人物列表{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.人物卡{background:#fff;border-radius:12px;padding:12px;position:relative;box-shadow:0 4px 25px #2238400b;transition:.25s}.人物卡:hover{transform:translateY(-6px);box-shadow:0 12px 28px #22384018}.人物圖{height:180px;border-radius:8px;display:grid;place-items:center;font-size:62px;overflow:hidden}.人物一{background:linear-gradient(150deg,#efb477,#405b65)}.人物二{background:linear-gradient(150deg,#5e7985,#e1a282)}.人物三{background:linear-gradient(150deg,#92a979,#f1c7a2)}.人物四{background:linear-gradient(150deg,#d7a26d,#435863)}.人物卡 h3{font-size:17px;margin:13px 0 2px}.人物卡 h3 em{font-style:normal;font-weight:400;color:#7a898d;font-size:14px}.人物卡 p{font-size:12px;color:#78898e;margin:0 0 10px}.標籤{display:flex;gap:5px;flex-wrap:wrap}.標籤 span{font-size:10px;color:#647579;background:#f7f6f1;padding:4px 6px;border-radius:4px}.愛心{position:absolute;right:20px;top:173px;width:31px;height:31px;border-radius:50%;background:#fff;color:var(--橘);font-size:24px;box-shadow:0 3px 10px #3332}.愛心.已喜歡{background:var(--橘);color:#fff}.安心區塊{background:var(--深);color:#fff;padding:66px 12%;display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:50px;align-items:center}.安心區塊 h2{color:#fff}.安心區塊 .眉標{color:#f5b19a}.安心項目{border-left:1px solid #ffffff44;padding-left:23px;display:flex;gap:13px;align-items:flex-start}.安心項目 span{color:#fcb09a;font-size:22px}.安心項目 p{font-size:12px;color:#c3d1d3;line-height:1.8;margin:0}.安心項目 b{display:block;color:#fff;font-size:14px}dialog{width:min(430px,90vw);border:0;border-radius:20px;padding:33px;box-shadow:0 20px 70px #0005}dialog::backdrop{background:#1739449c}.關閉{position:absolute;right:18px;top:10px;background:none;font-size:28px;color:#6b7a7e}dialog h2{font-size:28px;margin-bottom:23px}form{display:grid;gap:14px}label{font-size:13px;font-weight:700;color:#41565d}input,select{width:100%;border:1px solid #d9e0de;border-radius:8px;padding:12px;margin-top:6px;background:#fff;font:inherit;font-size:14px}.提示{position:fixed;z-index:5;bottom:25px;left:50%;transform:translate(-50%,100px);background:var(--深);color:#fff;padding:12px 20px;border-radius:99px;font-size:13px;transition:.3s}.提示.顯示{transform:translate(-50%,0)}@media(max-width:750px){.導覽列{padding:0 6%}.導覽列 nav,.文字按鈕{display:none}.首頁橫幅{height:660px;padding:0 8%;background:linear-gradient(90deg,#fff5ede8,#fff5edbe),url("hero-gathering.png") 67%/cover}.首頁橫幅 h1{font-size:36px}.信任卡片{right:8%;bottom:70px}.人物列表{grid-template-columns:repeat(2,1fr)}.人物圖{height:130px}.愛心{top:123px}.探索區塊{padding:60px 6%}.安心區塊{grid-template-columns:1fr;padding:55px 9%;gap:25px}.區塊標題{align-items:start}.區塊標題 .文字連結{display:none}}
+:root{--深:#183945;
+--橘:#ed765a;
+--粉:#fff4ee;
+--米:#f9f6f0;
+--字:#25404a}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;
+color:var(--字);
+font-family:"Noto Sans TC",sans-serif;
+background:var(--米)}
+button,a{font:inherit}
+button{cursor:pointer;
+border:0}
+.導覽列{height:82px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:0 6.5%;
+background:#fff;
+position:relative;
+z-index:2}
+.品牌{color:var(--深);
+font-weight:800;
+font-size:24px;
+letter-spacing:4px;
+text-decoration:none}
+.品牌 span{color:var(--橘);
+font-family:"Playfair Display";
+font-size:34px;
+margin-right:-4px}
+.導覽列 nav{display:flex;
+gap:35px}
+.導覽列 nav a,.文字按鈕{color:#6c7e83;
+text-decoration:none;
+background:none;
+padding:8px 0;
+font-size:14px}
+.導覽列 nav .目前頁面{color:var(--深);
+font-weight:700;
+border-bottom:2px solid var(--橘)}
+.導覽操作{display:flex;
+align-items:center;
+gap:20px}
+.小按鈕,.主要按鈕{background:var(--橘);
+color:#fff;
+border-radius:99px;
+padding:12px 21px;
+font-weight:700;
+font-size:14px;
+box-shadow:0 8px 20px #ed765a36}
+.首頁橫幅{height:610px;
+position:relative;
+background:linear-gradient(90deg,#fff5ed 0%,#fff1e9dc 38%,#ffffff10 65%),url("hero-gathering.png") center/cover;
+display:flex;
+align-items:center;
+padding:0 12.5%;
+overflow:hidden}
+.橫幅文字{max-width:650px}
+.眉標{font-size:13px;
+letter-spacing:2px;
+color:var(--橘);
+font-weight:800;
+margin:0 0 15px}
+.首頁橫幅 h1,.探索區塊 h2,.安心區塊 h2,dialog h2{font-family:"Playfair Display","Noto Sans TC",serif;
+color:var(--深);
+font-size:48px;
+line-height:1.27;
+margin:0;
+letter-spacing:-1px}
+.首頁橫幅 h1 span{color:var(--橘);
+font-style:italic}
+.介紹{line-height:1.9;
+color:#64777d;
+margin:23px 0 30px;
+font-size:15px}
+.免費額度{display:flex;align-items:center;gap:8px;width:max-content;max-width:100%;background:#fff8f4;border:1px solid #f4d4c9;border-radius:99px;padding:8px 13px;margin:-10px 0 25px;color:var(--橘);font-size:12px}.免費額度 span{font-size:18px;line-height:1}.免費額度 small{color:#849195;border-left:1px solid #f0cec1;padding-left:8px;margin-left:2px}
+.橫幅按鈕{display:flex;
+gap:24px;
+align-items:center}
+.主要按鈕{padding:15px 25px}
+.主要按鈕 b,.文字連結 b{font-size:20px;
+margin-left:12px}
+.播放按鈕{color:var(--深);
+font-size:14px;
+text-decoration:none;
+font-weight:700}
+.播放按鈕 i{display:inline-grid;
+place-items:center;
+width:31px;
+height:31px;
+border-radius:50%;
+border:1px solid #b8c4c3;
+font-style:normal;
+font-size:9px;
+margin-right:8px}
+.信任卡片{position:absolute;
+right:8%;
+bottom:76px;
+background:#fffbf8ed;
+border:1px solid #fff;
+border-radius:14px;
+padding:15px 18px;
+display:flex;
+gap:12px;
+align-items:center;
+box-shadow:0 10px 35px #35302d20}
+.頭像群{display:flex}
+.頭像群 span{width:31px;
+height:31px;
+border:2px solid white;
+border-radius:50%;
+margin-right:-9px;
+display:grid;
+place-items:center;
+background:#f0b077;
+color:white;
+font-size:10px;
+font-weight:bold}
+.頭像群 span:nth-child(2){background:#7995a0}
+.頭像群 span:nth-child(3){background:#b67a7a}
+.頭像群 span:last-child{background:var(--深)}
+.信任卡片 p{font-size:11px;
+line-height:1.5;
+margin:0;
+color:#607278}
+.信任卡片 b{color:var(--橘)}
+.捲動提示{position:absolute;
+bottom:24px;
+left:50%;
+font-size:11px;
+color:#718086;
+letter-spacing:1px;
+display:flex;
+gap:8px;
+align-items:center}
+.捲動提示 span{display:block;
+border-left:1px solid #86979b;
+height:24px}
+.探索區塊{padding:85px 10%}
+.區塊標題{display:flex;
+justify-content:space-between;
+align-items:end;
+margin-bottom:35px}
+.探索區塊 h2,.安心區塊 h2{font-size:31px}
+.文字連結{background:none;
+color:var(--深);
+font-weight:700;
+font-size:14px}
+.人物列表{display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:18px}
+.人物卡{background:#fff;
+border-radius:12px;
+padding:12px;
+position:relative;
+box-shadow:0 4px 25px #2238400b;
+transition:.25s}
+.人物卡:hover{transform:translateY(-6px);
+box-shadow:0 12px 28px #22384018}
+.人物圖{height:180px;
+border-radius:8px;
+display:grid;
+place-items:center;
+font-size:62px;
+overflow:hidden}
+.人物一{background:linear-gradient(150deg,#efb477,#405b65)}
+.人物二{background:linear-gradient(150deg,#5e7985,#e1a282)}
+.人物三{background:linear-gradient(150deg,#92a979,#f1c7a2)}
+.人物四{background:linear-gradient(150deg,#d7a26d,#435863)}
+.人物五{background:linear-gradient(150deg,#b6a383,#344d58)}.人物六{background:linear-gradient(150deg,#7a9cab,#d7ad85)}.人物七{background:linear-gradient(150deg,#e0a27e,#6a826c)}.人物八{background:linear-gradient(150deg,#91acb0,#d2a0a6)}.人物九{background:linear-gradient(150deg,#a5bb88,#617d71)}.人物十{background:linear-gradient(150deg,#d7a364,#4a6279)}
+.人物五{background:linear-gradient(150deg,#536c8d,#d9b06d)}.人物六{background:linear-gradient(150deg,#bd9c8c,#405a63)}.人物七{background:linear-gradient(150deg,#5d7472,#d6b885)}.人物八{background:linear-gradient(150deg,#7891a1,#e3aa79)}.人物九{background:linear-gradient(150deg,#8f7c67,#384e62)}.人物十{background:linear-gradient(150deg,#b58c9d,#4a656b)}
+.人物卡 h3{font-size:17px;
+margin:13px 0 2px}
+.人物卡 h3 em{font-style:normal;
+font-weight:400;
+color:#7a898d;
+font-size:14px}
+.人物卡 p{font-size:12px;
+color:#78898e;
+margin:0 0 10px}
+.標籤{display:flex;
+gap:5px;
+flex-wrap:wrap}
+.標籤 span{font-size:10px;
+color:#647579;
+background:#f7f6f1;
+padding:4px 6px;
+border-radius:4px}
+.愛心{position:absolute;
+right:20px;
+top:173px;
+width:31px;
+height:31px;
+border-radius:50%;
+background:#fff;
+color:var(--橘);
+font-size:24px;
+box-shadow:0 3px 10px #3332}
+.愛心.已喜歡{background:var(--橘);
+color:#fff}
+.安心區塊{background:var(--深);
+color:#fff;
+padding:66px 12%;
+display:grid;
+grid-template-columns:1.2fr 1fr 1fr;
+gap:50px;
+align-items:center}
+.安心區塊 h2{color:#fff}
+.安心區塊 .眉標{color:#f5b19a}
+.安心項目{border-left:1px solid #ffffff44;
+padding-left:23px;
+display:flex;
+gap:13px;
+align-items:flex-start}
+.安心項目 span{color:#fcb09a;
+font-size:22px}
+.安心項目 p{font-size:12px;
+color:#c3d1d3;
+line-height:1.8;
+margin:0}
+.安心項目 b{display:block;
+color:#fff;
+font-size:14px}
+dialog{width:min(430px,90vw);
+border:0;
+border-radius:20px;
+padding:33px;
+box-shadow:0 20px 70px #0005}
+dialog::backdrop{background:#1739449c}
+.關閉{position:absolute;
+right:18px;
+top:10px;
+background:none;
+font-size:28px;
+color:#6b7a7e}
+dialog h2{font-size:28px;
+margin-bottom:23px}
+form{display:grid;
+gap:14px}
+label{font-size:13px;
+font-weight:700;
+color:#41565d}
+input,select{width:100%;
+border:1px solid #d9e0de;
+border-radius:8px;
+padding:12px;
+margin-top:6px;
+background:#fff;
+font:inherit;
+font-size:14px}
+.提示{position:fixed;
+z-index:5;
+bottom:25px;
+left:50%;
+transform:translate(-50%,100px);
+background:var(--深);
+color:#fff;
+padding:12px 20px;
+border-radius:99px;
+font-size:13px;
+transition:.3s}
+.提示.顯示{transform:translate(-50%,0)}
+@media(max-width:750px){.導覽列{padding:0 6%}
+.導覽列 nav,.文字按鈕{display:none}
+.首頁橫幅{height:660px;
+padding:0 8%;
+background:linear-gradient(90deg,#fff5ede8,#fff5edbe),url("hero-gathering.png") 67%/cover}
+.首頁橫幅 h1{font-size:36px}
+.信任卡片{right:8%;
+bottom:70px}
+.人物列表{grid-template-columns:repeat(2,1fr)}
+.人物圖{height:130px}
+.愛心{top:123px}
+.探索區塊{padding:60px 6%}
+.安心區塊{grid-template-columns:1fr;
+padding:55px 9%;
+gap:25px}
+.區塊標題{align-items:start}
+.區塊標題 .文字連結{display:none}
+}
+.配對區塊{padding:86px 12%;background:#f2ece4;display:grid;grid-template-columns:1fr 1.05fr;gap:9%;align-items:center}
+.配對介紹>p:not(.眉標){color:#687b80;font-size:14px;line-height:1.9;max-width:370px;margin:22px 0}
+.快速選區{display:block;max-width:310px;font-size:12px;font-weight:700;color:var(--深);margin-top:24px}.快速選區 select{display:block;margin-top:7px;background:#fff;border:1px solid #d4ddd9;color:var(--深);font-size:14px}
+.配對步驟{display:flex;align-items:center;gap:9px;margin-top:30px}
+.配對步驟 span{width:27px;height:27px;border:1px solid #a9bab9;border-radius:50%;display:grid;place-items:center;font-size:11px;color:#6b7b7f}
+.配對步驟 span.目前{border-color:var(--橘);background:var(--橘);color:#fff}
+.配對步驟 i{height:1px;width:30px;background:#bdc9c7}
+.配對面板{min-height:300px;background:#fff;border-radius:16px;padding:35px;box-shadow:0 17px 40px #705e4512}
+.地區篩選{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding-bottom:24px;margin-bottom:22px;border-bottom:1px solid #e8ece8}.地區篩選 label{font-size:11px;color:#6f8185}.地區篩選 select{margin-top:5px;padding:10px;font-size:13px;color:var(--深)}
+.問題 p{font-size:12px;color:#89999b;margin:0}.問題 p b{color:var(--橘)}
+.問題 h3,.配對結果 h3{font-family:"Playfair Display","Noto Sans TC",serif;font-size:26px;color:var(--深);margin:13px 0 25px}
+.選項{display:grid;gap:10px}.選項 button{background:#fff;border:1px solid #e1e6e2;border-radius:8px;text-align:left;padding:14px 16px;color:var(--字);font-size:14px;transition:.2s}
+.選項 button:hover,.選項 button.已選{background:#fff3ed;border-color:var(--橘);color:var(--橘);font-weight:700}
+.配對結果{text-align:center}.結果圖{display:grid;place-items:center;margin:0 auto 10px;width:55px;height:55px;background:#fff3ed;border-radius:50%;font-size:26px}
+.配對結果 h3{margin:9px 0;font-size:24px}.配對結果 h3 strong{color:var(--橘)}.配對結果>p:not(.眉標){font-size:13px;color:#718286;margin:0 0 20px}
+.配對結果 .距離說明{color:var(--橘);font-weight:700;font-size:12px;margin-top:-10px}
+.重新配對{display:block;background:none;margin:15px auto 0;color:#738388;font-size:12px;text-decoration:underline}
+.聯誼活動{margin:0 auto;padding:26px 12%;background:#fff6f0;display:flex;align-items:center;gap:28px;border-top:1px solid #f4e1d8;border-bottom:1px solid #f4e1d8}.活動日期{width:78px;height:78px;flex:none;border-radius:12px;background:var(--橘);color:#fff;display:flex;align-items:center;justify-content:center;gap:7px}.活動日期 b{font:700 34px "Playfair Display";line-height:1}.活動日期 span{font-size:11px;line-height:1.35}.活動資訊{flex:1}.活動資訊 .眉標{margin-bottom:5px}.活動資訊 h2{font-family:"Playfair Display","Noto Sans TC",serif;color:var(--深);font-size:23px;margin:0 0 5px}.活動資訊>p:last-child{margin:0;color:#718287;font-size:13px;line-height:1.8}.活動按鈕{border:1px solid var(--橘);border-radius:99px;background:transparent;color:var(--橘);padding:12px 18px;font-size:13px;font-weight:700;white-space:nowrap}.活動按鈕 b{font-size:18px;margin-left:7px}
+@media(max-width:750px){.配對區塊{grid-template-columns:1fr;padding:58px 8%;gap:28px}.配對面板{padding:27px 22px}.地區篩選{grid-template-columns:1fr}.聯誼活動{padding:25px 8%;align-items:flex-start;gap:15px;flex-wrap:wrap}.活動資訊{min-width:calc(100% - 95px)}.活動按鈕{width:100%}}
