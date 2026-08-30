@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>雄雄遇見你・自在相識</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="導覽列">
+      <a class="品牌" href="#首頁" aria-label="雄雄遇見你首頁"><span>雄</span>雄遇見你</a>
+      <nav aria-label="主要導覽">
+        <a class="目前頁面" href="#首頁">首頁</a>
+        <a href="#探索">探索</a>
+        <a href="#活動">社群活動</a>
+        <a href="#關於">關於我們</a>
+      </nav>
+      <div class="導覽操作">
+        <button class="文字按鈕" data-訊息="登入功能準備中，歡迎先看看大家的自我介紹。">登入</button>
+        <button class="小按鈕" data-註冊>免費加入</button>
+      </div>
+    </header>
+
+    <main id="首頁">
+      <section class="首頁橫幅">
+        <div class="橫幅文字">
+          <p class="眉標">雄雄遇見你・給每個真實的你</p>
+          <h1>從一句<span>「嗨」</span>開始，<br />遇見讓你心動的人。</h1>
+          <p class="介紹">一個重視尊重、自在與真誠連結的同志交友空間。<br />慢慢認識，也剛剛好。</p>
+          <div class="橫幅按鈕">
+            <button class="主要按鈕" data-註冊>開始探索 <b>→</b></button>
+            <a class="播放按鈕" href="#探索"><i>▶</i>看看大家怎麼玩</a>
+          </div>
+        </div>
+        <div class="信任卡片">
+          <div class="頭像群"><span>Y</span><span>昀</span><span>安</span><span>+</span></div>
+          <p>主理人：<b>崴夢寶</b><br />陪你自在相遇</p>
+        </div>
+        <div class="捲動提示">往下探索 <span></span></div>
+      </section>
+
+      <section class="探索區塊" id="探索">
+        <div class="區塊標題">
+          <div><p class="眉標">剛好，也許就是現在</p><h2>認識正在發光的他們</h2></div>
+          <button class="文字連結" data-訊息="探索功能準備中，先從這幾位開始認識吧！">查看全部 <b>→</b></button>
+        </div>
+        <div class="人物列表">
+          <article class="人物卡"><div class="人物圖 人物一"><span>🏃</span></div><div><h3>子安 <em>28</em></h3><p>台北・產品設計師</p><div class="標籤"><span>☕ 咖啡</span><span>✦ 攝影</span></div></div><button class="愛心" aria-label="喜歡子安">♡</button></article>
+          <article class="人物卡"><div class="人物圖 人物二"><span>🎵</span></div><div><h3>明澤 <em>31</em></h3><p>新北・音樂老師</p><div class="標籤"><span>🎹 爵士樂</span><span>✦ 貓奴</span></div></div><button class="愛心" aria-label="喜歡明澤">♡</button></article>
+          <article class="人物卡"><div class="人物圖 人物三"><span>🌿</span></div><div><h3>允浩 <em>26</em></h3><p>台中・行銷企劃</p><div class="標籤"><span>✈️ 旅行</span><span>✦ 植物</span></div></div><button class="愛心" aria-label="喜歡允浩">♡</button></article>
+          <article class="人物卡"><div class="人物圖 人物四"><span>📚</span></div><div><h3>書宇 <em>30</em></h3><p>高雄・自由工作者</p><div class="標籤"><span>📖 閱讀</span><span>✦ 電影</span></div></div><button class="愛心" aria-label="喜歡書宇">♡</button></article>
+        </div>
+      </section>
+
+      <section class="安心區塊" id="活動">
+        <div><p class="眉標">安全，也是一種浪漫</p><h2>放心做自己，<br />我們在這裡守護你。</h2></div>
+        <div class="安心項目"><span>✓</span><p><b>友善的社群守則</b>每一段對話，都從尊重開始。</p></div>
+        <div class="安心項目"><span>⌁</span><p><b>你的隱私由你決定</b>資料公開與否，始終由你掌握。</p></div>
+      </section>
+    </main>
+
+    <dialog id="註冊視窗">
+      <button class="關閉" aria-label="關閉">×</button>
+      <p class="眉標">歡迎來到雄雄遇見你</p><h2>建立你的第一張名片</h2>
+      <form id="註冊表單">
+        <label>你的暱稱<input required placeholder="例如：喜歡散步的阿澤" /></label>
+        <label>所在城市<select><option>台北</option><option>新北</option><option>桃園</option><option>台中</option><option>高雄</option></select></label>
+        <button class="主要按鈕" type="submit">完成，開始探索</button>
+      </form>
+    </dialog>
+    <div class="提示" role="status"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
