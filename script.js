@@ -2,16 +2,10 @@ const 註冊視窗 = document.querySelector('#註冊視窗');
 const 提示 = document.querySelector('.提示');
 let 剩餘喜歡次數 = 5;
 const 剩餘額度 = document.querySelector('#剩餘額度');
-const 左側地區選擇 = document.querySelector('#左側地區選擇');
-const 尋找地區 = document.querySelector('#尋找地區');
+const MBTI選擇 = document.querySelector('#MBTI選擇');
 
-左側地區選擇.addEventListener('change', () => {
-  尋找地區.value = 左側地區選擇.value;
-  顯示提示(`已設定希望地區：${左側地區選擇.value === '不限' ? '不限地區' : 左側地區選擇.value}`);
-});
-
-尋找地區.addEventListener('change', () => {
-  左側地區選擇.value = 尋找地區.value;
+MBTI選擇.addEventListener('change', () => {
+  顯示提示(`已設定人格偏好：${MBTI選擇.options[MBTI選擇.selectedIndex].text}`);
 });
 
 document.querySelectorAll('[data-註冊]').forEach((按鈕) => {
@@ -101,4 +95,27 @@ document.querySelector('#重新配對').addEventListener('click', () => {
 document.querySelector('#查看推薦').addEventListener('click', () => {
   document.querySelector('#探索').scrollIntoView({ behavior: 'smooth' });
   顯示提示('已帶你前往探索區，看看更多關於他的介紹！');
+});
+
+const 人格資料 = {
+  諸祥: ['ESFP', '熱情體驗派，喜歡把快樂分享給身邊的人。'],
+  峻辰: ['INTP', '安靜好奇派，總有想和你分享的新點子。'],
+  汶軒: ['ESTP', '行動冒險派，喜歡一起挑戰生活的新可能。'],
+  煒家: ['INFJ', '溫柔洞察派，擅長認真聽見別人的故事。'],
+  柏翰: ['ENTJ', '果斷領航派，對認定的人總是很有行動力。'],
+  承叡: ['ISTJ', '可靠務實派，會把說過的小事放在心上。'],
+  宇恩: ['ENFP', '熱情探索派，喜歡認識人也樂於發現驚喜。'],
+  皓宇: ['ISFJ', '細心守護派，用安靜的方式關心身邊的人。'],
+  品睿: ['ENFJ', '真誠共感派，總能讓對話變得舒服自在。'],
+  俊佑: ['ISFP', '隨和感性派，享受不被行程催促的相處。'],
+};
+
+document.querySelectorAll('.人物卡').forEach((卡片) => {
+  const 名字 = 卡片.querySelector('h3').childNodes[0].textContent.trim();
+  const 人格 = 人格資料[名字];
+  if (!人格) return;
+  const 說明 = document.createElement('p');
+  說明.className = '人格分析';
+  說明.innerHTML = `<b>${人格[0]}</b>・${人格[1]}`;
+  卡片.querySelector('.標籤').after(說明);
 });
